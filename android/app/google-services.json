@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449957378607",
+    "project_id": "sapient-school",
+    "storage_bucket": "sapient-school.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449957378607:android:9d7f381e3f3155e853a4da",
+        "android_client_info": {
+          "package_name": "com.example.sapient_school"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj8-3NMfyTu1iz3VnsdMeNHvKrB01nCL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

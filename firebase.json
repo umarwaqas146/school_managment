@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sapient-school",
+          "appId": "1:449957378607:android:9d7f381e3f3155e853a4da",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sapient-school",
+          "configurations": {
+            "android": "1:449957378607:android:9d7f381e3f3155e853a4da",
+            "ios": "1:449957378607:ios:7d157a2e911cb1f053a4da",
+            "macos": "1:449957378607:ios:7d157a2e911cb1f053a4da",
+            "web": "1:449957378607:web:3305b281c9dac47d53a4da",
+            "windows": "1:449957378607:web:4cb9350109a4afa153a4da"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
